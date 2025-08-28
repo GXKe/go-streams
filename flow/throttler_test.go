@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	ext "github.com/reugn/go-streams/extension"
-	"github.com/reugn/go-streams/flow"
-	"github.com/reugn/go-streams/internal/assert"
+	ext "github.com/gxke/go-streams/extension"
+	"github.com/gxke/go-streams/flow"
+	"github.com/gxke/go-streams/internal/assert"
 )
 
 func TestThrottler_WithBackpressure(t *testing.T) {

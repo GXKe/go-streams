@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/redis/go-redis/v9"
-	"github.com/reugn/go-streams/flow"
-	ext "github.com/reugn/go-streams/redis"
+	"github.com/gxke/go-streams/flow"
+	ext "github.com/gxke/go-streams/redis"
 )
 
 // https://redis.io/topics/pubsub

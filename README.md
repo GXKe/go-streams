@@ -1,15 +1,15 @@
 # go-streams
-[![Build](https://github.com/reugn/go-streams/actions/workflows/build.yml/badge.svg)](https://github.com/reugn/go-streams/actions/workflows/build.yml)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/reugn/go-streams)](https://pkg.go.dev/github.com/reugn/go-streams)
-[![Go Report Card](https://goreportcard.com/badge/github.com/reugn/go-streams)](https://goreportcard.com/report/github.com/reugn/go-streams)
-[![codecov](https://codecov.io/gh/reugn/go-streams/branch/master/graph/badge.svg)](https://codecov.io/gh/reugn/go-streams)
+[![Build](https://github.com/gxke/go-streams/actions/workflows/build.yml/badge.svg)](https://github.com/gxke/go-streams/actions/workflows/build.yml)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/gxke/go-streams)](https://pkg.go.dev/github.com/gxke/go-streams)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gxke/go-streams)](https://goreportcard.com/report/github.com/gxke/go-streams)
+[![codecov](https://codecov.io/gh/gxke/go-streams/branch/master/graph/badge.svg)](https://codecov.io/gh/gxke/go-streams)
 
 `go-streams` provides a lightweight and efficient stream processing framework for Go. Its concise DSL allows
 for easy definition of declarative data pipelines using composable sources, flows, and sinks.
 
 ![pipeline-architecture-example](./docs/images/pipeline-architecture-example.png)
 
-> [Wiki](https://en.wikipedia.org/wiki/Pipeline_(computing))  
+> [Wiki](https://en.wikipedia.org/wiki/Pipeline_(computing))
 > In computing, a pipeline, also known as a data pipeline, is a set of data processing elements connected in series,
 > where the output of one element is the input of the next one. The elements of a pipeline are often executed in
 > parallel or in time-sliced fashion. Some amount of buffer storage is often inserted between elements.

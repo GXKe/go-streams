@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/reugn/go-streams"
+	"github.com/gxke/go-streams"
 )
 
 // SlidingWindowOpts represents SlidingWindow configuration options.

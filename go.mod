@@ -1,3 +1,3 @@
-module github.com/reugn/go-streams
+module github.com/gxke/go-streams
 
 go 1.21

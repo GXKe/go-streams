@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/reugn/go-streams"
+	"github.com/gxke/go-streams"
 )
 
 // SessionWindow generates groups of elements by sessions of activity.

@@ -6,8 +6,8 @@ import (
 	"log/slog"
 
 	stan "github.com/nats-io/stan.go"
-	"github.com/reugn/go-streams"
-	"github.com/reugn/go-streams/flow"
+	"github.com/gxke/go-streams"
+	"github.com/gxke/go-streams/flow"
 )
 
 // StreamingSource represents a NATS Streaming source connector.

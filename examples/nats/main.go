@@ -9,9 +9,9 @@ import (
 
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/stan.go"
-	"github.com/reugn/go-streams/extension"
-	"github.com/reugn/go-streams/flow"
-	ext "github.com/reugn/go-streams/nats"
+	"github.com/gxke/go-streams/extension"
+	"github.com/gxke/go-streams/flow"
+	ext "github.com/gxke/go-streams/nats"
 )
 
 func main() {

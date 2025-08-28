@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/reugn/go-streams"
+	"github.com/gxke/go-streams"
 )
 
 // FilterPredicate represents a filter predicate (boolean-valued function).

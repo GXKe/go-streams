@@ -1,4 +1,4 @@
-module github.com/reugn/go-streams/examples
+module github.com/gxke/go-streams/examples
 
 go 1.23.0
 
@@ -15,16 +15,16 @@ require (
 	github.com/nats-io/nats.go v1.42.0
 	github.com/nats-io/stan.go v0.10.4
 	github.com/redis/go-redis/v9 v9.8.0
-	github.com/reugn/go-streams v0.12.0
-	github.com/reugn/go-streams/aerospike v0.0.0
-	github.com/reugn/go-streams/aws v0.0.0
-	github.com/reugn/go-streams/azure v0.0.0
-	github.com/reugn/go-streams/gcp v0.0.0
-	github.com/reugn/go-streams/kafka v0.0.0
-	github.com/reugn/go-streams/nats v0.0.0
-	github.com/reugn/go-streams/pulsar v0.0.0
-	github.com/reugn/go-streams/redis v0.0.0
-	github.com/reugn/go-streams/websocket v0.0.0
+	github.com/gxke/go-streams v0.12.0
+	github.com/gxke/go-streams/aerospike v0.0.0
+	github.com/gxke/go-streams/aws v0.0.0
+	github.com/gxke/go-streams/azure v0.0.0
+	github.com/gxke/go-streams/gcp v0.0.0
+	github.com/gxke/go-streams/kafka v0.0.0
+	github.com/gxke/go-streams/nats v0.0.0
+	github.com/gxke/go-streams/pulsar v0.0.0
+	github.com/gxke/go-streams/redis v0.0.0
+	github.com/gxke/go-streams/websocket v0.0.0
 	google.golang.org/api v0.232.0
 )
 
@@ -166,13 +166,13 @@ require (
 )
 
 replace (
-	github.com/reugn/go-streams/aerospike => ../aerospike
-	github.com/reugn/go-streams/aws => ../aws
-	github.com/reugn/go-streams/azure => ../azure
-	github.com/reugn/go-streams/gcp => ../gcp
-	github.com/reugn/go-streams/kafka => ../kafka
-	github.com/reugn/go-streams/nats => ../nats
-	github.com/reugn/go-streams/pulsar => ../pulsar
-	github.com/reugn/go-streams/redis => ../redis
-	github.com/reugn/go-streams/websocket => ../websocket
+	github.com/gxke/go-streams/aerospike => ../aerospike
+	github.com/gxke/go-streams/aws => ../aws
+	github.com/gxke/go-streams/azure => ../azure
+	github.com/gxke/go-streams/gcp => ../gcp
+	github.com/gxke/go-streams/kafka => ../kafka
+	github.com/gxke/go-streams/nats => ../nats
+	github.com/gxke/go-streams/pulsar => ../pulsar
+	github.com/gxke/go-streams/redis => ../redis
+	github.com/gxke/go-streams/websocket => ../websocket
 )

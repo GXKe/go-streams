@@ -6,8 +6,8 @@ import (
 	"log/slog"
 
 	"github.com/redis/go-redis/v9"
-	"github.com/reugn/go-streams"
-	"github.com/reugn/go-streams/flow"
+	"github.com/gxke/go-streams"
+	"github.com/gxke/go-streams/flow"
 )
 
 // PubSubSource represents a Redis Pub/Sub source connector.

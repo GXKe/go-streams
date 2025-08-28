@@ -5,8 +5,8 @@ import (
 	"io"
 	"log/slog"
 
-	"github.com/reugn/go-streams"
-	"github.com/reugn/go-streams/flow"
+	"github.com/gxke/go-streams"
+	"github.com/gxke/go-streams/flow"
 )
 
 // ElementReader reads and parses an element from the provided io.Reader.

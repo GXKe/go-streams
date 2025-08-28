@@ -7,8 +7,8 @@ import (
 	"log/slog"
 
 	"github.com/nats-io/nats.go"
-	"github.com/reugn/go-streams"
-	"github.com/reugn/go-streams/flow"
+	"github.com/gxke/go-streams"
+	"github.com/gxke/go-streams/flow"
 )
 
 // JetStreamSourceConfig specifies parameters for the JetStream source connector.

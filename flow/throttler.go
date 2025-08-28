@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/reugn/go-streams"
+	"github.com/gxke/go-streams"
 )
 
 // ThrottleMode defines the behavior of the Throttler when its internal buffer is full.

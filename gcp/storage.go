@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"cloud.google.com/go/storage"
-	"github.com/reugn/go-streams"
-	"github.com/reugn/go-streams/flow"
+	"github.com/gxke/go-streams"
+	"github.com/gxke/go-streams/flow"
 	"google.golang.org/api/iterator"
 )
 
