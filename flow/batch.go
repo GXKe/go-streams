@@ -90,10 +90,10 @@ func (b *Batch[T]) batchStream() {
 				b.buffer = append(b.buffer, element.(T))
 				// dispatch the batch if the maximum batch size has been reached
 				if len(b.buffer) >= b.maxBatchSize {
+					// reset the ticker
+					ticker.Reset(b.timeInterval)
 					b.flush()
 				}
-				// reset the ticker
-				ticker.Reset(b.timeInterval)
 			} else {
 				// send the available buffer elements as a new batch, close the
 				// output channel and return
